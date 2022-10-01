@@ -41,7 +41,7 @@ public class ordersPositiveTest extends sanderClass{
         //подтверждение заказа
         CorrectOrder objCorrectOrder= new CorrectOrder(driver);
         objCorrectOrder.yesButtonClick();
-        //сравнение вводимой информации и выданной
+        //сравнение введенной информации и выданной
         StatusUserOrder objStatusUserOrder= new StatusUserOrder(driver);
         objStatusUserOrder.clickButtonStatusOrder();
         objStatusUserOrder.checkUsersNames();
